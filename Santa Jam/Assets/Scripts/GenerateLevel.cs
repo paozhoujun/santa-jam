@@ -12,7 +12,7 @@ public class GenerateLevel : MonoBehaviour
     void Start()
     {
         var PlayerOne = Instantiate(PlayerOnePrefab, transform.position, Quaternion.identity) as GameObject;
-        //var PlayerTwo = Instantiate(PlayerTwoPrefab, transform.position, Quaternion.identity) as GameObject;
+        var PlayerTwo = Instantiate(PlayerTwoPrefab, transform.position + new Vector3(1, 1, 0), Quaternion.identity) as GameObject;
 
         SpawnRooms();
         

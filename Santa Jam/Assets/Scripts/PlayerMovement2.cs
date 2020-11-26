@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement2 : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
     public float MoveSpeed = 10f;
 
@@ -17,8 +17,8 @@ public class PlayerMovement2 : MonoBehaviour
     private void Update()
     {
         // Input
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
+        movement.x = Input.GetAxisRaw("Horizontal2");
+        movement.y = Input.GetAxisRaw("Vertical2");
     }
 
     private void FixedUpdate()
