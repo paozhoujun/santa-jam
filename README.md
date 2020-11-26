@@ -1,7 +1,7 @@
 # santa-jam
 
 Todo
-~~- Make player movement (both players)~~
+- ~~Make player movement (both players)~~
 - Allow player to choose their own colour
 - Add ability to press a key to 'tag' room
   - one button, tags whole room? or
